@@ -1,0 +1,12 @@
+###
+GET   http://localhost:4000/api/employees
+
+###
+POST  http://localhost:4000/api/employees
+Content-Type: application/json 
+{
+    "name": "fazt",
+    "position": "Snr. Developer",
+    "office": "Rome",
+    "salary": "22000"
+}
